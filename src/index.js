@@ -14,7 +14,7 @@ root.render(
       <a
         href="https://github.com/shelbycodes0"
         target="_blank"
-        rel="norefferer"
+        rel="noreferrer"
       >
         ShelbyCodes
       </a>

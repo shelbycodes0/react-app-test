@@ -9,6 +9,16 @@ root.render(
   <React.StrictMode>
     <h1>Weather App</h1>
     <App />
+    <footer>
+      This app was built by{" "}
+      <a
+        href="https://github.com/shelbycodes0"
+        target="_blank"
+        rel="norefferer"
+      >
+        ShelbyCodes
+      </a>
+    </footer>
   </React.StrictMode>
 );
 

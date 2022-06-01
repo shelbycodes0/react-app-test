@@ -4,19 +4,15 @@
   font-weight: bold;
 }
 .Header h1 {
-  font-size: 80px;
+  font-size: 70px;
   margin-top: 0;
   color: #32314c;
 }
 .Header img {
-  max-width: 200px;
+  max-width: 180px;
   margin-top: 50px;
 }
 .App {
   text-align: center;
   font-family: sans-serif;
-}
-footer {
-  font-family: monospace;
-  text-align: center;
 }

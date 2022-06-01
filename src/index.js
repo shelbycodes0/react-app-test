@@ -4,21 +4,15 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+import Header from "./Header";
+import Footer from "./Footer";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <h1>Weather App</h1>
+    <Header />
     <App />
-    <footer>
-      This app was built by{" "}
-      <a
-        href="https://github.com/shelbycodes0"
-        target="_blank"
-        rel="noreferrer"
-      >
-        ShelbyCodes
-      </a>
-    </footer>
+    <Footer />
   </React.StrictMode>
 );
 

@@ -1,14 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 
 function App() {
+  let [keyWord, setKeyword] = useState("");
+
+  function search(event) {
+    event.preventDefault();
+  }
+
+  function handleKeyWord(event) {
+    setKeyword(event.target.value);
+    console.log(keyWord);
+  }
+
   return (
     <div className="App">
-      <form>
+      <form onSubmit={search}>
         <input
           type="search"
           placeholder="Search for a word..."
           className="searchbar"
+          onChange={handleKeyWord}
         />
         <input type="submit" value="Search" className="searchbtn" />
       </form>

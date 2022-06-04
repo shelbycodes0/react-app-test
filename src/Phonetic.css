@@ -1,0 +1,10 @@
+.Phonetic {
+  font-family: Poppins;
+  font-size: 18px;
+  text-align: right;
+}
+.Phonetic a {
+  text-decoration: none;
+  color: #976bcf;
+  padding-right: 20px;
+}

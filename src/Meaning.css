@@ -1,0 +1,25 @@
+.Meaning {
+  background-color: ghostwhite;
+  color: #32314c;
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+h3 {
+  font-size: 55px;
+  margin: 0;
+  padding: 20px;
+}
+p {
+  font-family: poppins;
+  font-size: 20px;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+hr {
+  opacity: 0.6;
+  width: 30%;
+}

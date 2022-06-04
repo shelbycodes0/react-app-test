@@ -1,12 +1,17 @@
 .searchbar {
   height: 32px;
-  width: 200px;
+  width: 230px;
   font-family: "Poppins", sans-serif;
-  padding: 10px;
+  padding: 10px 12px;
+  background-color: ghostwhite;
 }
 .searchbtn {
   height: 32px;
   font-family: "Poppins", sans-serif;
+  margin-bottom: 70px;
+}
+.searchbtn:hover {
+  cursor: pointer;
 }
 .App {
   margin-bottom: 70px;

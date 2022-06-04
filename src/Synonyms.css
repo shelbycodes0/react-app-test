@@ -1,0 +1,8 @@
+ul {
+  list-style: none;
+  font-family: poppins;
+  display: flex;
+  justify-content: center;
+  opacity: 0.6;
+  padding: 0;
+}

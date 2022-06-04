@@ -13,6 +13,8 @@ root.render(
     <Header />
     <App />
     <Footer />
+    <br />
+    <br />
   </React.StrictMode>
 );
 

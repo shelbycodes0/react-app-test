@@ -14,5 +14,6 @@
   cursor: pointer;
 }
 .App {
+  margin-top: 25px;
   margin-bottom: 70px;
 }

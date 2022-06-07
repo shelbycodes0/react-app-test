@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./App.css";
+import { BallTriangle } from "react-loader-spinner";
 
 import Results from "./Results";
 import Photos from "./Photos";
+
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 function App() {
   let [keyWord, setKeyword] = useState("");
@@ -37,6 +40,14 @@ function App() {
 
   return (
     <div className="App">
+      <span className="loader">
+        <BallTriangle
+          height="100"
+          width="100"
+          color="#5FD9B3"
+          ariaLabel="loading"
+        />
+      </span>
       <div className="SearchBar">
         <form onSubmit={search}>
           <input
@@ -48,6 +59,7 @@ function App() {
           <input type="submit" value="Search" className="searchbtn" />
         </form>
       </div>
+
       <Results results={results} />
       <Photos photos={photos} />
     </div>

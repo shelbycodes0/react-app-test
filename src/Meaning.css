@@ -1,25 +1,29 @@
 .Meaning {
   background-color: ghostwhite;
   color: #32314c;
-  max-width: 80%;
+  max-width: 75%;
   display: block;
   margin: 0 auto;
   border-radius: 10px;
   padding: 20px;
 }
 h3 {
-  font-size: 55px;
+  font-size: 45px;
   margin: 0;
-  padding: 20px;
+  padding: 15px;
+  font-family: "Source Serif Pro";
+  font-weight: bold;
 }
 p {
-  font-family: poppins;
+  font-family: "Poppins";
   font-size: 20px;
-  text-align: center;
+
   padding-right: 15px;
   padding-left: 15px;
 }
 hr {
   opacity: 0.6;
   width: 30%;
+  display: block;
+  margin: 0 auto;
 }

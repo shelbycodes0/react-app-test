@@ -1,4 +1,4 @@
-.firstGroup {
+.Photos {
   background-color: ghostwhite;
   color: #32314c;
   max-width: 75%;
@@ -7,9 +7,7 @@
   border-radius: 10px;
   padding: 20px;
 }
-.firstGroup h2 {
-  font-size: 60px;
-  margin: 0;
-  font-weight: bold;
-  font-family: "Source Serif Pro";
+.Photos img {
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
